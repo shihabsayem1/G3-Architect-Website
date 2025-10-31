@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,17 +7,124 @@
     <link rel="stylesheet" href="styles/architect.css">
 </head>
 <body class="work-sans-font">
-    <header>
-        <nav class="navbar">
-            <h3 class="brand">G3 Architects</h3>
-
-        </nav>
+    <header class="bg-light">
+        <nav class="navbar flex">
+            <h3 class="brand">G3 Architect</h3>
+            <ul class="nav-links flex">
+        <li class="nav-item"><a href="" class="nav-link gray">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link gray">About</a></li>
+        <li class="nav-item"><a href="" class="nav-link gray">Login</a></li>
+        <li class="nav-item"><a href="" class="nav-link gray">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="banner"></div>
+<div class="banner-content">
+        <h1 class="banner-title">Brand New Group of Architects</h1>
+    <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus beatae a perspiciatis consequuntur ducimus eligendi delectus sint, suscipit dolorem vel, recusandae provident eveniet dolore nihil accusamus incidunt hic illo.</p>
+    <button class="btn-primary">Explore More</button>
+</div>
+    <img class="image" src="images/banner.png" alt="">
     </header>
     <main>
+        <!-- features primeras -->
+        <section class="team flex">
+            <div class="team-img-container">
+                <img src="images/team1.png" alt="">
+                <img src="images/team2.png" alt="">
+                <img src="images/team3.png" alt="">
+                <img src="images/team4.png" alt="">
 
+            </div>
+            <div class="features">
+                <h3 class="section-title"><span id="dark" class="light-gray">Quick list</span> <span>of Our</span> <span class="orange">Features</span></h3>
+                <p class="feature-descripiton light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even.</p>
+                <button class="btn-primary">Explore More</button>
+            </div>
+        </section>
+        <!-- features you will love and enjoy -->
+         <section class="features-2 flex">
+            <div>
+                <h3 id="feature-section-title" class="section-title">Features you will<br>love & enjoy</h3>
+                <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+
+                <!-- feature card container -->
+                 <div class="feature-card">
+                    <h4 class="feature-title">Desktop & mobile version</h4>
+                    <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                 </div>
+                 <div class="feature-card">
+                    <h4 class="feature-title">Desktop & mobile version</h4>
+                    <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                 </div>
+                 <div class="feature-card">
+                    <h4 class="feature-title">Desktop & mobile version</h4>
+                    <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                 </div>
+                 <div class="feature-card">
+                    <h4 class="feature-title">Desktop & mobile version</h4>
+                    <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                 </div>
+                </div>
+            <div class="featured-architect">
+                <img src="images/architect.png" alt="">
+                <button id="badge" class="btn-primary">
+                    <span id="year">10+Years</span><br><span>Experience</span>
+                </button>
+            </div>
+         </section>
+        <!-- features segundas -->
+        <section>
+            <h3 class="section-title">Some facts</h3>
+            <p class="light-gray fact-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+            <div class="fact-container">
+                <!-- .fact*4>img.fact-icon+h4.fact-No+h5.fact-name -->
+                <div class="fact">
+                   <div>
+                     <img src="images/icons/ribon.png" alt="" class="fact-icon">
+                    <h4 class="fact-number">54</h4>
+                    <h5 class="fact-name">Award Winning</h5>
+                   </div>
+                </div>
+                <div class="fact">
+                    <div>
+                        <img src="images/icons/projects.png" alt="" class="fact-icon">
+                    <h4 class="fact-number">1458</h4>
+                    <h5 class="fact-name">Project Finished</h5>
+                    </div>
+                </div>
+                <div class="fact">
+                <div>
+                    <img src="images/icons/customers.png" alt="" class="fact-icon">
+                    <h4 class="fact-number">590</h4>
+                    <h5 class="fact-name">Clients Worked</h5>
+                </div>
+                </div>
+                <div class="fact">
+                <div>
+                    <img src="images/icons/email.png" alt="" class="fact-icon">
+                    <h4 class="fact-number">22578</h4>
+                    <h5 class="fact-name">Email Send</h5>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- featuras tercera -->
+         <section class="sponsor">
+            <div class="sponsor-info">
+                <h3 class="section-title">Our Sponsors</h3>
+                <p class="light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="logo">
+                <img src="images/sponsors/spotify.png" alt="">
+                <img src="images/sponsors/google.png" alt="">
+                <img src="images/sponsors/amazon.png" alt="">
+                <img src="images/sponsors/telerama.png" alt="">
+                <img src="images/sponsors/figma.png" alt="">
+            </div>
+         </section>
     </main>
     <footer>
-
+        <p class="footer">All rights reserved copyright@2023 setup landing...</p>
     </footer>
 </body>
 </html>
